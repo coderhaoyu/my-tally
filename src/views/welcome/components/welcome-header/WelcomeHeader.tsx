@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 
-import { WelcomeHeaderWrapper } from './style'
+import { WelcomeHeaderWrapper } from './WelcomeHeaderStyle'
 
 export const WelcomeHeader = memo(() => {
   return (

@@ -1,11 +1,12 @@
 import React, { memo } from 'react'
 
 import { WelcomeHeader } from './components/welcome-header/WelcomeHeader'
+import { WelcomeWrapper } from './WelcomeStyle'
 export const Welcome = memo(() => {
   return (
-    <div>
+    <WelcomeWrapper>
       <WelcomeHeader></WelcomeHeader>
-    </div>
+    </WelcomeWrapper>
   )
 })
 
